@@ -1,0 +1,205 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  background-color: rgb(84, 126, 110);
+}
+.firstpage {
+  background-image: url(./first1.webp);
+  height: 760px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.firstpage p {
+  /* text-align: center; */
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: blue;
+}
+.firstpage .firstpara {
+  font-size: 6rem;
+  color: blue;
+  font-family: "Borel", cursive;
+  font-family: "Caveat", cursive;
+}
+.firstpage img {
+  width: 200px;
+  height: 200px;
+  margin-top: 100px;
+}
+
+.secondpage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* width: 400px; */
+  /* text-align: center; */
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.secondpage img {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+}
+.secondpage h1 {
+  margin-top: 30px;
+  color: aqua;
+  font-size: 2.5rem;
+}
+.secondpage p {
+  width: 500px;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+  color: black;
+}
+.thirdpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.thirdpage h1 {
+  margin-top: 40px;
+  color: aqua;
+  font-size: 2.5rem;
+}
+.firstflex {
+  margin-top: 50px;
+}
+.secondflex {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+.secondflex img {
+  width: 250px;
+  height: 250px;
+}
+.secondflex h2 {
+  color: aqua;
+}
+.secondflex p {
+  width: 500px;
+  text-align: left;
+  font-size: 20px;
+  margin-top: 20px;
+  line-height: 40px;
+}
+.secondflex .skill {
+  margin-left: 20px;
+}
+.fourthpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.fourthpage p {
+  margin-bottom: 40px;
+}
+.fourthpage .para1 {
+  font-size: 2rem;
+  color: aqua;
+  font-family: sans-serif;
+}
+.fourthpage .para2 {
+  font-size: 20px;
+  color: aqua;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.fourthpage .para3 {
+  width: 600px;
+  text-align: center;
+  font-size: 20px;
+  color: aqua;
+}
+.fourthpage button {
+  padding: 10px;
+  width: 12rem;
+  text-transform: uppercase;
+  font-size: 20px;
+  background-color: aqua;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: white;
+  border: 2px solid aqua;
+  border-radius: 10px;
+  margin-bottom: 100px;
+}
+.fourthpage button:hover {
+  background-color: rgb(7, 57, 57);
+}
+footer {
+  background-color: aqua;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.fifthpage {
+  width: 200px;
+}
+.fifthpage .anchor {
+  word-spacing: 20px;
+  margin-bottom: 30px;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.fifthpage .anchor a {
+  text-decoration: inherit;
+  color: rgb(6, 49, 49);
+}
+.fifthpage .anchor a:hover {
+  color: bisque;
+}
+.fifthpage p {
+  font-family: 15px;
+  font-family: sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    width: 100%;
+    background-size: cover;
+  }
+  .firstpage {
+    height: 780px;
+  }
+  .secondflex {
+    flex-direction: column;
+  }
+  .secondpage p {
+    width: 300px;
+  }
+
+  .fourthpage .para3 {
+    width: 300px;
+  }
+  .fourthpage .para2 {
+    text-align: center;
+  }
+  .secondflex p {
+    width: 300px;
+  }
+  .secondflex img {
+    width: 320px;
+  }
+  .secondflex h2 {
+    margin-top: 10px;
+  }
+}
